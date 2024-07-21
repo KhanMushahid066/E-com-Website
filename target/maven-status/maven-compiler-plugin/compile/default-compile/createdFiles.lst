@@ -1,0 +1,12 @@
+com\e_com\entities\Category.class
+com\e_com\entities\User.class
+com\e_com\servlets\ProuctOperationServlet.class
+com\e_com\dao\UserDao.class
+com\e_com\sfactory\FactoryProvider.class
+com\e_com\entities\Product.class
+com\e_com\servlets\RegisterServlet.class
+com\e_com\dao\ProductDao.class
+com\e_com\servlets\login.class
+com\e_com\servlets\logoutServlet.class
+com\e_com\dao\CategoryDao.class
+com\e_com\sfactory\Helper.class

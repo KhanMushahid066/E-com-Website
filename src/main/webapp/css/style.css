@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 2, 2024, 3:02:57 PM
+    Author     : kmush
+*/
+.custom-bg{
+    /*    background:#90caf9 !important;*/
+    background: #388e3c !important;
+
+}
+
+
+.admin .card{
+    border: 2px solid #388e3c;
+}
+
+.admin .card:hover{
+    background: #cbefcd;
+    cursor: pointer;
+}
+.list-group-item.active{
+    background: #388e3c !important;
+    border-color: #388e3c  !important;
+}
+
+.discount-label{
+    font-size: 10px !important; 
+    font-style: italic !important;
+
+}
+.product-card:hover{
+
+    background: linear-gradient(190deg, #ffffff, #e6e6e6e8);
+    cursor: pointer;
+}
+
+
+/*//custome taot msg*/ 
+
+
+#toast {
+    min-width: 300px;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -120px;
+    background: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+    visibility: hidden;
+    box-shadow: 0px 0px 100px #000;
+}
+
+#toast.display{
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+
+}
+@keyframes fadeI {
+    from{
+        bottom:0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom:0;
+        opacity: 0;
+    }
+}
